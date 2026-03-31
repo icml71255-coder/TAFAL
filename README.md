@@ -106,6 +106,22 @@ ATLAS and TaLoS for 5 epochs, Taujp and KFAC for 3 epochs and 10-value hyperpara
 
 ![Layer-wise Subspace Overlap](assets/layerwise_subspace_overlap.png)
 
+### Task Arithmetic in ViT: Original MNIST vs Synthetic MNIST
+
+#### Addition
+
+| Setting | Dataset | ViT-B/16 | ViT-B/32 | ViT-L/14 |
+|--------|--------|----------|----------|----------|
+| Syn | MNIST | 78.6225 | 79.92375 | 87.10625 |
+| Orig | MNIST | 77.54375 | 79.73125 | 86.88875 |
+
+#### Negation
+
+| Setting | Dataset | ViT-B/16 (Tar) | ViT-B/16 (Cont) | ViT-B/32 (Tar) | ViT-B/32 (Cont) | ViT-L/14 (Tar) | ViT-L/14 (Cont) |
+|--------|---------|----------------|-----------------|----------------|-----------------|----------------|-----------------|
+| Syn | neg_mnist | 9.8 | 60.88 | 14.74 | 72.81 | 10.7 | 76.5 |
+| Orig | neg_mnist | 9.79 | 61 | 14.65 | 74.09 | 10.76 | 76.27 |
+
 ## Notes
 - All dependencies are specified in `requirements.txt`.
 - This repository will be de-anonymized upon acceptance.
