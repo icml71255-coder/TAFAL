@@ -108,7 +108,7 @@ ATLAS and TaLoS for 5 epochs, Taujp and KFAC for 3 epochs and 10-value hyperpara
 ![Layer-wise Subspace Overlap](assets/layerwise_subspace_overlap.png)
 
 ### Robustness of TAFAL in ViT: Original vs Synthetic Data
-
+Small DCGANs with 5 convolutional(and deconvolutional) layers were trained for 50 epochs to generate the synthetic data.
 #### Addition
 
 | Setting | ViT-B/16 | ViT-B/32 | ViT-L/14 |
